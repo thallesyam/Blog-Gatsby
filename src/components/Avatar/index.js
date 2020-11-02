@@ -9,7 +9,7 @@ const Avatar = () => {
     query {
       avatarImage: file(relativePath: { eq: "profile-photo.jpg" }) {
         childImageSharp {
-          fluid(width: 60, height: 60) {
+          fixed(width: 60, height: 60) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -18,7 +18,7 @@ const Avatar = () => {
   `
   )
 
-  return <S.AvatarWrapper fluid={avatarImage.childImageSharp.fluid} />
+  return <S.AvatarWrapper fixed={avatarImage.childImageSharp.fixed} />
 }
 
 export default Avatar
