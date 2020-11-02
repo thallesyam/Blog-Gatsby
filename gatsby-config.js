@@ -74,8 +74,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Thalles Ian`,
-        short_name: `Thalles Ian`,
+        name: `John Doe`,
+        short_name: `John Doe`,
         start_url: `/`,
         background_color: `#16202c`,
         theme_color: `#16202c`,
@@ -84,7 +84,9 @@ module.exports = {
       },
     },
     `gatsby-plugin-sitemap`,
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
-    `gatsby-plugin-netlify-cms`
+    `gatsby-plugin-netlify-cms`,
   ],
 }

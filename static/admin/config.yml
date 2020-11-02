@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: /thallesyam/Blog-Gatsby
+  repo: thallesyam/Blog-Gatsby
   branch: master
   sit_domain: thallesyam.netlify.app
 
