@@ -46,7 +46,7 @@ query Post($slug: String!) {
       title
       description
       date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
-      image
+      cover
     }
     html
     timeToRead
