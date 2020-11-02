@@ -37,21 +37,21 @@ const BlogPost = ({ data, pageContext }) => {
 }
 
 export const query = graphql`
-query Post($slug: String!) {
-  markdownRemark(fields: { slug: { eq: $slug } }) {
-    fields {
-      slug
+  query Post($slug: String!) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      fields {
+        slug
+      }
+      frontmatter {
+        title
+        description
+        date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
+        image
+      }
+      html
+      timeToRead
     }
-    frontmatter {
-      title
-      description
-      date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
-      image
-    }
-    html
-    timeToRead
   }
-}
 `
 
 export default BlogPost
