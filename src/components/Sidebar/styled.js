@@ -9,10 +9,9 @@ export const SidebarWrapper = styled.aside`
   flex-direction: column;
   height: 100vh;
   position: fixed;
-  padding: 2rem;
+  padding: 2rem 0rem;
   text-align: center;
   width: 20rem;
-
   ${media.lessThan("large")`
     align-items: flex-start;
     height: auto;
