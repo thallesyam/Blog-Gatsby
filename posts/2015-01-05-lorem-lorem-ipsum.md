@@ -4,7 +4,6 @@ title: Lorem lorem ipsum
 description: And I'm lorem sure lorem
 category: JS
 background: "#d6ba32"
-cover: "/assets/img/desert.jpg"
 ---
 
 # Lorem ipsum

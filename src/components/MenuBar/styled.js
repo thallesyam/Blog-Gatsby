@@ -53,7 +53,7 @@ export const MenuBarItem = styled.span`
   height: 3.75rem;
   padding: 1.1rem;
   position: relative;
-  width: 3.75rem;
+  width: 2.75rem;
 
   &.light {
     color: #d4d400;
