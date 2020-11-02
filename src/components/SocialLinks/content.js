@@ -1,20 +1,26 @@
+const handle = "johndoe"
+
 const links = [
   {
-    label: 'Github',
-    url: 'https://github.com/thallesyam'
+    label: "Github",
+    url: `https://github.com/${handle}`,
   },
   {
-    label: 'Facebook',
-    url: 'https://www.facebook.com/thalles.yan.142'
+    label: "Twitter",
+    url: `https://twitter.com/${handle}`,
   },
   {
-    label: 'Linkedin',
-    url: 'https://www.linkedin.com/in/thalles-ian-ba6315181/'
+    label: "Youtube",
+    url: `https://www.youtube.com/${handle}`,
   },
   {
-    label: 'Instagram',
-    url: 'https://www.instagram.com/thallesyam/'
-  }
+    label: "Instagram",
+    url: `https://www.instagram.com/${handle}`,
+  },
+  {
+    label: "Unsplash",
+    url: `https://unsplash.com/${handle}`,
+  },
 ]
 
 export default links
