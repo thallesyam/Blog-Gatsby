@@ -4,10 +4,10 @@ const queries = require("./src/utils/algolia_queries")
 
 module.exports = {
   siteMetadata: {
-    title: `John Doe`,
-    position: `Backend Developer`,
-    description: `A blog about backend development and other cool stuff.`,
-    author: `@myblog`,
+    title: `Thalles Ian`,
+    position: `Front End`,
+    description: `Blog desenvolvido no curso de gatsby.`,
+    author: `@thallesyam`,
     siteUrl: `https://thallesyam.netlify.app/`,
   },
   plugins: [
@@ -83,5 +83,8 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-netlify-cms`
   ],
 }
