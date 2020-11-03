@@ -11,8 +11,6 @@ module.exports = {
     siteUrl: `http://thallesyam.netlify.app`,
   },
   plugins: [
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
@@ -38,6 +36,8 @@ module.exports = {
         path: `${__dirname}/posts`,
       },
     },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
